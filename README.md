@@ -1,51 +1,86 @@
-Comprehensive Test Case Coverage for Amazon Application Functionalities
+# Projects Overview
 
-Enhanced test case coverage for Amazon application functionalities, including search bar inputs, product navigation, selection, color and size options, cart and checkout flow, and order confirmation process. Added detailed scenarios with expected and actual outcomes, ensuring comprehensive validation of key features.
+## 1. Comprehensive Test Case Coverage for Amazon Application Functionalities
 
+### Description
+This project enhances test case coverage for various functionalities of the Amazon application. It includes detailed validation of key features such as search bar inputs, product navigation, selection, color and size options, cart and checkout flow, and order confirmation process. Each test scenario outlines expected and actual outcomes, ensuring thorough validation.
 
+### Features
+- **Scenario Coverage**: Comprehensive testing of user journeys, including searching, selecting, and purchasing.
+- **Validation Metrics**: Comparison of expected and actual results to identify discrepancies.
+- **Error Handling**: Covers edge cases and negative test scenarios for robust validation.
 
-Performance Testing Plan for Public APIs on HTTPBin Using Apache JMeter
+### Tech Stack
+- Manual Testing
+- Test Case Design
+- Requirement Analysis
 
-Comprehensive performance testing plan targeting public APIs on https://httpbin.org/. Includes GET, POST, DELETE, and PUT endpoint validation under load and stress conditions using Apache JMeter. Key objectives focus on concurrent user traffic handling, performance bottleneck identification, and accurate server response validation with detailed reporting through JMeter listeners.
+### Usage Instructions
+1. Prepare a test plan with defined scenarios.
+2. Execute test cases on the Amazon platform.
+3. Document findings and validate against expected outcomes.
 
+---
 
+## 2. Performance Testing Plan for Public APIs on HTTPBin Using Apache JMeter
 
-Comprehensive API Testing for FakeStoreAPI: Validation of Product Retrieval, Order Placement, Update, and Deletion Using cURL Commands and Response Time Metrics.
+### Description
+A performance testing plan for public APIs on [HTTPBin](https://httpbin.org/) using Apache JMeter. The project includes GET, POST, DELETE, and PUT endpoint validation under various load and stress conditions. It focuses on concurrent user traffic handling, identifying performance bottlenecks, and ensuring accurate server response validation with detailed reporting through JMeter listeners.
 
-The set of API test cases focuses on validating key functionalities of the FakeStoreAPI, including retrieving product menus, placing orders, updating existing orders, and deleting orders. Each test case specifies the HTTP method, request details, endpoint, expected response, and status. The test scenarios are designed to ensure accuracy, efficiency, and compliance with functional requirements. Using tools like cURL, the tests validate response codes, response times, and the correctness of data, ensuring robust API behavior and performance.
+### Features
+- **Load Testing**: Simulates up to 50 concurrent users.
+- **Stress Testing**: Validates performance with up to 5000 users.
+- **Detailed Reporting**: Includes summary and aggregate reports via JMeter.
 
+### Tech Stack
+- Apache JMeter
 
+### Usage Instructions
+1. Install Apache JMeter and configure test plans.
+2. Execute test scenarios for each endpoint.
+3. Analyze listener reports to identify performance issues.
 
+---
 
-Selenium TestNG Automation for OrangeHRM Login Module
+## 3. Comprehensive API Testing for FakeStoreAPI
 
-Project Title: Selenium TestNG Automation for OrangeHRM Login Module
+### Description
+This project validates key functionalities of the FakeStoreAPI, including retrieving product menus, placing orders, updating existing orders, and deleting orders. Each test case includes details such as HTTP method, request payload, endpoint, expected response, and status. Tools like cURL are used to verify response codes, response times, and data accuracy.
 
-Description:
-This project demonstrates automated testing of the OrangeHRM login module using Selenium WebDriver and TestNG. The test suite includes positive, negative, and edge test cases for validating the login functionality, error handling, and password reset flow. The code is modular, following the Page Object Model (POM) design pattern, ensuring readability and maintainability.
+### Features
+- **Functional Coverage**: Validates CRUD operations on API endpoints.
+- **Efficiency Metrics**: Includes response time and status code validation.
+- **cURL Commands**: Demonstrates API interaction via terminal-based requests.
 
-Features:
+### Tech Stack
+- cURL
+- REST API Testing
 
-Cross-Browser Testing: Supports Chrome, Firefox, and Edge using WebDriverManager.
-Parameterized Tests: Browser choice is parameterized using TestNG @Parameters.
-Page Object Model: Centralized locator management for better maintainability.
-Test Coverage:
-Valid login.
-Invalid login with incorrect credentials.
-Login with empty fields.
-Password reset flow validation.
-Assertions: Validates expected outcomes using Assert.
-Wait Mechanisms: Uses explicit waits to handle dynamic elements and improve test stability.
-Tech Stack:
+### Usage Instructions
+1. Use provided cURL commands to test API endpoints.
+2. Validate response against expected results.
+3. Document mismatches and optimize API behavior.
 
-Programming Language: Java
-Framework: TestNG
-Automation Tool: Selenium WebDriver
-Dependency Management: WebDriverManager
-Build Tool: Not applicable (plain Java project).
-Usage Instructions:
+---
 
-Clone the repository.
-Add the required dependencies for Selenium WebDriver, TestNG, and WebDriverManager.
-Run the TestNG suite from your IDE or the command line.
-Update browser and URL parameters as needed.
+## 4. Selenium TestNG Automation for OrangeHRM Login Module
+
+### Description
+This project automates the OrangeHRM login module using Selenium WebDriver and TestNG. The suite includes tests for positive, negative, and edge cases, validating login functionality, error messages, and password reset flow. The implementation uses the Page Object Model (POM) design pattern for maintainability and clarity.
+
+### Features
+- **Cross-Browser Testing**: Supports Chrome, Firefox, and Edge via WebDriverManager.
+- **Parameterized Tests**: Allows dynamic browser choice with TestNG annotations.
+- **Assertions and Waits**: Utilizes Assert and explicit waits for improved stability.
+
+### Tech Stack
+- Programming Language: Java
+- Framework: TestNG
+- Automation Tool: Selenium WebDriver
+
+### Usage Instructions
+1. Clone the repository.
+2. Configure browser and URL parameters in the TestNG XML file.
+3. Run the test suite via IDE or command line.
+
+---
